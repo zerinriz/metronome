@@ -1,0 +1,42 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.metronome {
+  text-align: center;
+  margin-top: 50px;
+  width: 300px;
+  height: 300px;
+}
+
+.bpm-slider input {
+  width: 100%;
+  margin: 10px;
+}
+
+.metronome button {
+  background: #0060df;
+  padding: 10px;
+  border: 1px solid #023a83;
+  border-radius: 2px;
+  width: 100px;
+  color: #fff;
+  font-size: 18px;
+}
+
+.metronome button:hover {
+  background-color: #023a83; 
+  border: 1px solid #0060df;
+  color: white;
+}
